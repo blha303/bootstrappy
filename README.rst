@@ -21,13 +21,5 @@ Usage
 Installation
 ------------
 
-Via ``pip``:
-
-::
-
-    pip3 install bootstrappy
-
-Alternatively:
-
 -  Clone the repository, ``cd bootstrappy``
 -  Run ``python3 setup.py install`` or ``pip3 install -e``
