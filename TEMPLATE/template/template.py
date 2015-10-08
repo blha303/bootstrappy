@@ -21,7 +21,7 @@ def prompt(*args):
 
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(prog="{name}")
     parser.add_argument("term", help="")
     args = parser.parse_args()
     return 0
