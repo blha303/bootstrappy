@@ -1,6 +1,0 @@
-*.m4a
-*.pyc
-env/
-build/
-dist/
-*.egg-info/
