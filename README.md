@@ -6,7 +6,15 @@ A Python program to generate a basic Python program. Whee
 Usage
 -----
 
-todo
+    usage: bootstrappy [-h] name desc deps
+    
+    positional arguments:
+      name        Name of project
+      desc        Description of project
+      deps        Dependencies. Comma-separated list
+    
+    optional arguments:
+      -h, --help  show this help message and exit
 
 Installation
 ------------
