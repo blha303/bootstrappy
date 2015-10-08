@@ -3,6 +3,16 @@ bootstrappy
 
 A Python program to generate a basic Python program. Whee
 
+What does it do?
+----------------
+
+I made it for my own use, so it does what I do when I'm making a new project:
+
+* Create a new directory in ~/workspace (if this directory doesn't exist it will probably error out)
+* Create the necessary boilerplate files for a module (readme, setup.py, module directory, __init__ and __main__, module file at <name>.py) in said directory
+
+I then go in and put whatever code I want in module/module.py, add more files if I like, making sure to populate main() as that's what is called by the CLI handler. Then I can use `python3 setup.py install` to install it systemwide.
+
 Usage
 -----
 
