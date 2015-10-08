@@ -1,2 +1,2 @@
 include README.rst
-include TEMPLATE/
+recursive-include TEMPLATE *
