@@ -52,10 +52,10 @@ def main():
     shutil.move(WORKSPACE_PATH + "/template".format(**args), WORKSPACE_PATH + "/{name}".format(**args))
     print("Formatting {name}/__main__.py...".format(**args), file=sys.stderr)
     do_format("~/workspace/{name}/{name}/__main__.py", args, curly=True)
-    print("Formatting {name}/{name}.py...".format(**args), file=sys.stderr)
-    do_format("~/workspace/{name}/{name}/{name}.py", args, curly=True)
     print("Renaming main file from {name}/template.py to {name}/{name}.py...".format(**args), file=sys.stderr)
     shutil.move(WORKSPACE_PATH + "/{name}/template.py".format(**args), WORKSPACE_PATH + "/{name}/{name}.py".format(**args))
+    print("Formatting {name}/{name}.py...".format(**args), file=sys.stderr)
+    do_format("~/workspace/{name}/{name}/{name}.py", args, curly=True)
     os.chdir(WORKSPACE_PATH)
     return 0
 
